@@ -34,7 +34,7 @@ static Key keys[] = { \
 	/* modifier                     key           function        argument */
 	{ MODKEY|ShiftMask,             XK_t,         focusonce,      { 0 } },
 	{ MODKEY|ShiftMask,             XK_t,         spawn,          { 0 } },
-	{ MODKEY,                       XK_t,         spawn,          SETPROP("_TABBED_SELECT_TAB") },
+	// { MODKEY,                       XK_t,         spawn,          SETPROP("_TABBED_SELECT_TAB") },
 
 	{ MODKEY|ShiftMask,             XK_semicolon, rotate,         { .i = +1 } },
 	{ MODKEY|ShiftMask,             XK_j,         rotate,         { .i = -1 } },
